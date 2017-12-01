@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Default Html</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/jquery/dist/jquery.min.js">
+	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- default form login -->
+<form>
+	<div class="form-group">
+		<div class="input-group">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-user"></span>
+			</span>
+			<input class="form-control" type="" name="username" placeholder="username">
+		</div>
+		<div class="input-group">
+			<span class="input-group-addon">
+				<span class="glyphicon glyphicon-lock"></span>
+			</span>
+			<input class="form-control" type="password" name="password" placeholder="password">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="row">
+			<div class="col-md-6">
+				<button class="btn btn-primary btn-block">
+					<span class="glyphicon glyphicon-log-in"></span> 
+					Login
+				</button>
+			</div>
+			<div class="col-md-6">
+				<button class="btn btn-danger btn-block" type="reset">
+					<span class="glyphicon glyphicon-refresh"></span> 
+					Reset
+				</button>
+			</div>
+		</div>
+	</div>
+</form>
+
+<!-- form filter -->
+<form>
+	<input class="filter form-control" type="" name="" placeholder="Filter table...">
+</form>
+
+<!-- table -->
+<div class="table-responsive">
+	<table class="filter_data table table-dark table-hover table-condensed table-striped table-bordered">
+		<thead>
+			<tr>
+				<th>#ID</th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- form cari -->
+<form>
+	<input class="form-control" type="" name="cari" placeholder="Cari..">
+</form>
+
+<!-- paging -->
+<ul class="pagination pagination-sm">
+	<li><a style="background: #333; color: white; font-weight: bold;">&larr; Sebelumnya</a></li>
+	<li><a href="halaman?page=1">1</a></li>
+	<li><a style="background: #333; color: white; font-weight: bold;">Selanjutnya &rarr;</a></li>
+	<li><a style="background: #333; color: white; font-weight: bold;">Page 1 of 1, total 1 data</a></li>
+</ul>
+
+<!-- modal -->
+<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			 <div class="modal-header">
+			 	<span data-dismiss="modal">&times;</span>
+			 	<h2 class="text-center modal-title">Judul</h2>
+			 </div>
+
+			 <div class="modal-body">
+			 	
+			 </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
